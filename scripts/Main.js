@@ -46,8 +46,9 @@ function executeWidgetCode() {
                              {
                               var topicName = '3DXVertex.stream';
                               var data = { "sender": "3DXVertex", "messsage": "info to share ...",
-                                "streamkey":"iSuDYmJ30XPevdL5UeTgSJqIuQQbFqP-iIIe",
-                                "clientid":"08CEF7AE6E675F48D2C802AC0E6AFD183CC95553AA6889F032DD29AB070E40C0"
+                                "streamkey":"0bWDdtbttgIVk-yiSgzQ-6GUxyM0xifVWz2b",
+                                "clientid":"08CEF7AE6E675F48D2C802AC0E6AFD183CC95553AA6889F032DD29AB070E40C0",
+                                "objectDisplayName": obj.data.items[0].displayName
                                } ;
                               API.publish(topicName, data );
 
