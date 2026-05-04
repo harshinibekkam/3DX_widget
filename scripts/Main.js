@@ -46,7 +46,7 @@ function executeWidgetCode() {
                              {
                               var topicName = '3DXVertex.stream';
                               var data = { "sender": "3DXVertex", "messsage": "info to share ...",
-                                "streamkey":"va2eVu6Fh5kJQBWr3PCzI9eqa-esaqV5THTo",
+                                "streamkey":"aH50bSZyYdv_MXUCn0HM6zOPs1fGwtQ3ZXOa",
                                 "clientid":"08CEF7AE6E675F48D2C802AC0E6AFD183CC95553AA6889F032DD29AB070E40C0",
                                 "objectDisplayName": obj.data.items[0].displayName
                                } ;
