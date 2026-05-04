@@ -42,7 +42,7 @@ function executeWidgetCode() {
                 const apiBtn = document.getElementById("callApiBtn");
                 if (apiBtn) {
                     apiBtn.onclick = function () {
-                        if (confirm("Send " + obj.data.items[0].displayName + " to Vertex?"))
+                       // if (confirm("Send " + obj.data.items[0].displayName + " to Vertex?"))
                              {
                               var topicName = '3DXVertex.stream';
                               var data = { "sender": "3DXVertex", "messsage": "info to share ...",
